@@ -196,3 +196,8 @@ INNER JOIN public."InvoiceLine" il ON t."TrackId" = il."TrackId"
 GROUP BY ar."Name"
 ORDER BY "Ingresos generados" DESC
 LIMIT 5;
+
+
+-- ===================================================
+-- STAGE 4 Y 5 EN EL DOCUMENTO
+-- ===================================================
